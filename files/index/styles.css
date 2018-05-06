@@ -47,21 +47,13 @@
   position:fixed;
   left:0px;
   top:0px;
-  width:1600px;
-  height:101px;
-  overflow:hidden;
 }
 #u1_state0 {
-  border-width:0px;
-  position:absolute;
+  position:relative;
   left:0px;
   top:0px;
-  width:1600px;
-  height:101px;
-  -ms-overflow-x:hidden;
-  overflow-x:hidden;
-  -ms-overflow-y:hidden;
-  overflow-y:hidden;
+  width:0px;
+  height:0px;
   background-image:none;
 }
 #u1_state0_content {
@@ -73,17 +65,12 @@
   height:1px;
 }
 #u1_state1 {
-  border-width:0px;
-  position:absolute;
+  position:relative;
   left:0px;
   top:0px;
-  width:1600px;
+  width:20px;
   height:101px;
   visibility:hidden;
-  -ms-overflow-x:hidden;
-  overflow-x:hidden;
-  -ms-overflow-y:hidden;
-  overflow-y:hidden;
   background-color:rgba(255, 255, 255, 1);
   background-image:none;
 }
@@ -1723,7 +1710,7 @@
   overflow-x:hidden;
   -ms-overflow-y:hidden;
   overflow-y:hidden;
-  background-color:rgba(255, 255, 255, 1);
+  background-color:rgba(255, 204, 204, 1);
   background-image:none;
 }
 #u42_state0_content {
