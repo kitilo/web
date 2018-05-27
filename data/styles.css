@@ -60,11 +60,17 @@
   text-align:left;
 }
 ._文本链接 {
-  color:#0000FF;
+  font-family:'微软雅黑';
+  font-weight:400;
+  font-style:normal;
+  font-size:16px;
+  color:#1CD39B;
 }
 ._鼠标悬停文本链接时 {
 }
 ._鼠标按下文本链接时 {
+}
+._流程形状 {
 }
 .icon {
 }
@@ -76,5 +82,12 @@
 }
 ._图片 {
 }
+.paragraph {
+  text-align:left;
+}
 .icon1 {
+}
+._连接线 {
+}
+.flow_shape {
 }

@@ -1,0 +1,599 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>产品设计0到1，我是这样做的</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/产品设计0到1，我是这样做的/styles.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/prototypePre.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/prototypePost.js"></script>
+    <script src="files/产品设计0到1，我是这样做的/data.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- 内容框 (矩形) -->
+      <div id="u407" class="ax_default box_2" data-label="内容框">
+        <div id="u407_div" class=""></div>
+      </div>
+
+      <!-- top (矩形) -->
+      <div id="u408" class="ax_default box_2" data-label="top">
+        <div id="u408_div" class=""></div>
+      </div>
+
+      <!-- 标题区 (矩形) -->
+      <div id="u409" class="ax_default box_2" data-label="标题区">
+        <div id="u409_div" class=""></div>
+        <div id="u409_text" class="text ">
+          <p style="font-size:30px;"><span>产品设计0到1，我是这样做的</span></p><p style="font-size:16px;"><span style="color:#999999;">金廷隆&nbsp;&nbsp; </span><span style="font-size:10px;color:#CCCCCC;">|</span><span style="color:#999999;">&nbsp;&nbsp; 2018年04月08日</span></p>
+        </div>
+      </div>
+
+      <!-- 文章内容 (组 合) -->
+      <div id="u410" class="ax_default" data-label="文章内容" data-left="190" data-top="280" data-width="900" data-height="6164">
+
+        <!-- Unnamed (矩形) -->
+        <div id="u411" class="ax_default box_2">
+          <div id="u411_div" class=""></div>
+          <div id="u411_text" class="text ">
+            <p><span>受限于篇幅，关于竞品分析、功能结构拆解、目标用户分析、用户场景体验地图以及对需求进行KANO模型排序的简单举例方法可以查看我前段时间为方特做的：《方特旅游App分析与优化方案探索》Github 地址：</span><a id="u412" class="link"><span style="color:#1CD39B;">kitilo.github.io/fangte/</span></a><span> 请使用电脑端网页浏览以达最佳体验。</span></p><p><span><br></span></p><p><span style="color:#999999;">题外话：创业团队人员匮乏，例如设计师，一个人同时进行2、3个项目，即是UI设计师又是UE设计师，还要兼顾产品发展，而且没有资源、没有拿融资、没有“好”项目，最终只能沦为“付”不起的阿斗，这也是早期部分创业公司倒闭的原因。</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u413" class="ax_default box_2">
+          <div id="u413_div" class=""></div>
+          <div id="u413_text" class="text ">
+            <p><span>产品从0到1，这里指的是一个产品从提出需求到发布上线的过程（之后还有2、3、4 ... n等，可能一个产品需要迭代第n个版本后，进入稳定期，才能有些小成就），这个过程对比大部分互联网项目都是相同的（To B和To C在前期阶段略不同）：</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u414" class="ax_default box_2">
+          <div id="u414_div" class=""></div>
+          <div id="u414_text" class="text ">
+            <p><span>说明：本文并非产品设计阶段方法论的长篇大论，主要针对自己近几年工作中对创业项目和外包项目的流程总结。我所有的知识积累，来源于项目实践中踩过的每一个坑，一路走来有悲有喜，分享文章与君共勉，如有错误还请指正。</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u415" class="ax_default box_2">
+          <div id="u415_div" class=""></div>
+          <div id="u415_text" class="text ">
+            <p><span>设计时，我会大量截图和参考类似的优秀产品，制定功能优先层级、模块内容数据字段、逻辑线路等。有些设计师在设计界面时盲目追求简洁为美的风格而忽略数据的重要性，前期没有规划而导致后期维护和重新添加大量遗漏数据对于任何一个产品都是致命的。在开始画交互线框前，我还会对产品核心功能的业务流程进行详细梳理和走查以确保达到客户要求：</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (组 合) -->
+        <div id="u416" class="ax_default" data-left="200" data-top="500" data-width="880" data-height="129">
+
+          <!-- Unnamed (矩形) -->
+          <div id="u417" class="ax_default flow_shape">
+            <div id="u417_div" class=""></div>
+            <div id="u417_text" class="text ">
+              <p><span>市场调研</span></p><p><span>竞品分析</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u418" class="ax_default flow_shape">
+            <div id="u418_div" class=""></div>
+            <div id="u418_text" class="text ">
+              <p><span>产品定位</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u419" class="ax_default flow_shape">
+            <div id="u419_div" class=""></div>
+            <div id="u419_text" class="text ">
+              <p><span>用户分析</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u420" class="ax_default flow_shape">
+            <div id="u420_div" class=""></div>
+            <div id="u420_text" class="text ">
+              <p><span>需求确认</span></p><p><span>架构规划</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u421" class="ax_default flow_shape">
+            <div id="u421_div" class=""></div>
+            <div id="u421_text" class="text ">
+              <p><span>原型设计</span></p><p><span>和评审</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u422" class="ax_default flow_shape">
+            <div id="u422_div" class=""></div>
+            <div id="u422_text" class="text ">
+              <p><span>UI设计</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u423" class="ax_default flow_shape">
+            <div id="u423_div" class=""></div>
+            <div id="u423_text" class="text ">
+              <p><span>研发及测试</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u424" class="ax_default flow_shape">
+            <div id="u424_div" class=""></div>
+            <div id="u424_text" class="text ">
+              <p><span>版本上线</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (连接线) -->
+          <div id="u425" class="ax_default _连接线">
+            <img id="u425_seg0" class="img " src="images/产品设计0到1，我是这样做的/u425_seg0.png" alt="u425_seg0"/>
+            <img id="u425_seg1" class="img " src="images/产品设计0到1，我是这样做的/u425_seg1.png" alt="u425_seg1"/>
+            <img id="u425_seg2" class="img " src="images/产品设计0到1，我是这样做的/u425_seg2.png" alt="u425_seg2"/>
+            <img id="u425_seg3" class="img " src="images/产品设计0到1，我是这样做的/u425_seg3.png" alt="u425_seg3"/>
+            <img id="u425_seg4" class="img " src="images/产品设计0到1，我是这样做的/u425_seg4.png" alt="u425_seg4"/>
+            <div id="u425_text" class="text ">
+              <p><span>数据追踪、反馈、版本迭代</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (连接线) -->
+          <div id="u426" class="ax_default _连接线">
+            <img id="u426_seg0" class="img " src="images/产品设计0到1，我是这样做的/u426_seg0.png" alt="u426_seg0"/>
+            <img id="u426_seg1" class="img " src="images/产品设计0到1，我是这样做的/u426_seg1.png" alt="u426_seg1"/>
+            <div id="u426_text" class="text " style="display:none; visibility: hidden">
+              <p></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (连接线) -->
+          <div id="u427" class="ax_default _连接线">
+            <img id="u427_seg0" class="img " src="images/产品设计0到1，我是这样做的/u426_seg0.png" alt="u427_seg0"/>
+            <img id="u427_seg1" class="img " src="images/产品设计0到1，我是这样做的/u426_seg1.png" alt="u427_seg1"/>
+            <div id="u427_text" class="text " style="display:none; visibility: hidden">
+              <p></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (连接线) -->
+          <div id="u428" class="ax_default _连接线">
+            <img id="u428_seg0" class="img " src="images/产品设计0到1，我是这样做的/u426_seg0.png" alt="u428_seg0"/>
+            <img id="u428_seg1" class="img " src="images/产品设计0到1，我是这样做的/u426_seg1.png" alt="u428_seg1"/>
+            <div id="u428_text" class="text " style="display:none; visibility: hidden">
+              <p></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (连接线) -->
+          <div id="u429" class="ax_default _连接线">
+            <img id="u429_seg0" class="img " src="images/产品设计0到1，我是这样做的/u429_seg0.png" alt="u429_seg0"/>
+            <img id="u429_seg1" class="img " src="images/产品设计0到1，我是这样做的/u426_seg1.png" alt="u429_seg1"/>
+            <div id="u429_text" class="text " style="display:none; visibility: hidden">
+              <p></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (连接线) -->
+          <div id="u430" class="ax_default _连接线">
+            <img id="u430_seg0" class="img " src="images/产品设计0到1，我是这样做的/u426_seg0.png" alt="u430_seg0"/>
+            <img id="u430_seg1" class="img " src="images/产品设计0到1，我是这样做的/u426_seg1.png" alt="u430_seg1"/>
+            <div id="u430_text" class="text " style="display:none; visibility: hidden">
+              <p></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (连接线) -->
+          <div id="u431" class="ax_default _连接线">
+            <img id="u431_seg0" class="img " src="images/产品设计0到1，我是这样做的/u426_seg0.png" alt="u431_seg0"/>
+            <img id="u431_seg1" class="img " src="images/产品设计0到1，我是这样做的/u426_seg1.png" alt="u431_seg1"/>
+            <div id="u431_text" class="text " style="display:none; visibility: hidden">
+              <p></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (连接线) -->
+          <div id="u432" class="ax_default _连接线">
+            <img id="u432_seg0" class="img " src="images/产品设计0到1，我是这样做的/u426_seg0.png" alt="u432_seg0"/>
+            <img id="u432_seg1" class="img " src="images/产品设计0到1，我是这样做的/u426_seg1.png" alt="u432_seg1"/>
+            <div id="u432_text" class="text " style="display:none; visibility: hidden">
+              <p></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u433" class="ax_default box_2">
+          <div id="u433_div" class=""></div>
+          <div id="u433_text" class="text ">
+            <p><span>以上流程相信大家都耳熟能详，理论太官方所以不再展开详细描述，各阶段由不同角色（</span><span style="color:#999999;">以前在福富UED团队时，我们有专门的用户研究员、需求整理人员、交互设计师和UI设计师，每个人在项目中分工而又合作</span><span>）来分别执行并且每个阶段都有较成熟的方法论来支撑。例如，市场调研常用PEST和SWOT分析方法、竞品分析可以用产品体验五要素来拆解、了解用户可以从使用场景来展开调研，建立用户画像和行为地图、功能架构规划可以对需求池进行KANO模型排序等等。</span></p><p><span><br></span></p><p><span>近几年，我身处创业团队中，参与和负责了大部分产品设计流程，一路挖坑埋坑一步步摸索着走过来。以下对我在创业项目和外包项目中几个主要阶段的工作内容做一些说明：</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u434" class="ax_default box_2">
+          <div id="u434_div" class=""></div>
+          <div id="u434_text" class="text ">
+            <p><span style="font-family:'微软雅黑 Bold', '微软雅黑 Regular', '微软雅黑';font-weight:700;">一、市场调研及竞品分析</span></p><p><span style="font-family:'微软雅黑 Bold', '微软雅黑 Regular', '微软雅黑';font-weight:700;"><br></span></p><p><span style="font-family:'微软雅黑';font-weight:400;">先做产品定位还是先做产品分析？其实在提出产品需求的时候就已经初步对产品进行定位了（工具/资讯/电商/社交等，在初期不建议做混合型产品，体验太差，也不容易站稳），通过市场调研和竞品分析来对可行性进行探讨，并明确产品前期走向。</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u435" class="ax_default box_2">
+          <div id="u435_div" class=""></div>
+          <div id="u435_text" class="text ">
+            <p style="font-size:24px;text-align:center;"><span>创业项目</span></p><p style="font-size:15px;text-align:left;"><span><br></span></p><p style="font-size:15px;text-align:left;"><span>创业团队的创业项目，在没有投资人的情况下，投入的资金一般来源于公司的其他外包项目，因此我们在前期考虑更多的是怎么活下来，但由于时间和条件的限制，只能进行粗略的市场分析和竞品研究工作。对于“差事帮”项目特地组建了校内团队，我还会查看talkingdata上对于大学生兼职用户分析以及兼职类型的数据等；</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u436" class="ax_default box_2">
+          <div id="u436_div" class=""></div>
+          <div id="u436_text" class="text ">
+            <p style="font-size:24px;text-align:center;"><span>外包项目</span></p><p style="font-size:15px;text-align:left;"><span><br></span></p><p style="font-size:15px;text-align:left;"><span>特指创业公司的快餐式外包项目，一般不会进行详细的市场调研和用户分析，而是通过与需求方不断探讨磨合来最终敲定功能需求方案。这里我做竞品分析有两个目的：1）对功能及信息架构有一些较为成熟的参考，以弥补前期规划中的不足；2）对用户操作流程做一些简要分析和数据参考。</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u437" class="ax_default box_2">
+          <div id="u437_div" class=""></div>
+          <div id="u437_text" class="text ">
+            <p><span style="font-family:'微软雅黑 Bold', '微软雅黑 Regular', '微软雅黑';font-weight:700;">二、用户调研</span></p><p><span style="font-family:'微软雅黑 Bold', '微软雅黑 Regular', '微软雅黑';font-weight:700;"><br></span></p><p><span style="font-family:'微软雅黑';font-weight:400;">人们常说一个项目失败是因为需求不明确，而根本原因是不了解自己的用户。由于在这几年项目中吃过不少苦头，因此深刻了解用户研究的重要性，通过用户调研和行为数据分析，能够清晰的了解每个阶段用户行为和做出针对性的设计策略、以及及时剔除伪需求，对产品发展有着极大的指导意义，简单举例也可参看以上《方特旅游App分析与优化方案探索》。</span></p><p><span style="font-family:'微软雅黑';font-weight:400;"><br></span></p><p><span style="font-family:'微软雅黑';font-weight:400;">对于外包项目的设计周期和资源有限而无法开展数据调研，依然可以通过客户方入手，他们在该行业的沉淀远远超过一个外行人埋头意淫的结果，再辅以竞品分析和自身产品优势，完全可以制定出一套有效的产品解决方案。</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u438" class="ax_default box_2">
+          <div id="u438_div" class=""></div>
+          <div id="u438_text" class="text ">
+            <p><span style="font-family:'微软雅黑 Bold', '微软雅黑 Regular', '微软雅黑';font-weight:700;">三、需求分析</span></p><p><span style="font-family:'微软雅黑 Bold', '微软雅黑 Regular', '微软雅黑';font-weight:700;"><br></span></p><p><span style="font-family:'微软雅黑';font-weight:400;">需求分析某种程度上与用户调研是密不可分的，举一个反面例子，大概在2016年10月份，支付宝上线了“到位”功能，而此时我们的创业项目“差事帮（大学生兼职）”刚上线不久，功能较为基础，也急于寻找一个亮点作为突破口，因此跟风模仿到位并设计了“帮帮”功能（2016年12月下旬上线，以下为部分原型页面）：</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u439" class="ax_default box_2">
+          <div id="u439_div" class=""></div>
+          <div id="u439_text" class="text ">
+            <p><span>开发测试不再继续展开讨论；迭代阶段，以往项目中我们会优先处理客服及运营团队提上来的需求，因为这部分反馈内容，要么是用户在使用过程中出现的，要么是客户方提出的业务痛点，而这些内容对于产品的发展是具有潜在的指导意义的。</span></p><p><span><br></span></p><p><span>最后，以上所有内容均是个人工作中项目经历总结，经验有限，时间也较仓促，部分内容没有详细展开说明。并且我自知产品思维及知识面还需要继续学习提高，产品设计有观点有方法有理论有依据，才能让人信服，才站得住脚。</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (图片) -->
+        <div id="u440" class="ax_default _图片">
+          <img id="u440_img" class="img " src="images/产品设计0到1，我是这样做的/u440.jpg"/>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u441" class="ax_default box_2">
+          <div id="u441_div" class=""></div>
+          <div id="u441_text" class="text ">
+            <p><span>结果是显而易见的，没有及时进行需求调研来剔除伪需求，盲目跟风导致损耗了大量的人力物力做了一个不适宜的错误功能。</span></p><p><span><br></span></p><p><span>在经过调研或者与甲方客户沟通确认了阶段需求后，我会写一个功能需求说明文档来对接确认并绘制功能结构图（例如，以下辰管家功能结构图是在每次对接需求微调后渐渐完善起来的，展开后内容非常之多）：</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (图片) -->
+        <div id="u442" class="ax_default _图片">
+          <img id="u442_img" class="img " src="images/产品设计0到1，我是这样做的/u442.jpg"/>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u443" class="ax_default box_2">
+          <div id="u443_div" class=""></div>
+          <div id="u443_text" class="text ">
+            <p><span style="font-family:'微软雅黑 Bold', '微软雅黑 Regular', '微软雅黑';font-weight:700;">四、原型设计和UI设计</span></p><p><span style="font-family:'微软雅黑 Bold', '微软雅黑 Regular', '微软雅黑';font-weight:700;"><br></span></p><p><span style="font-family:'微软雅黑';font-weight:400;">由于团队规模较小，原型设计和UI设计是我日常工作中做的最多的内容，得益于目前越来越多成熟的UI框架以及Axure功能的强大，我在设计一些简单产品原型时就可以把UI框架定下来，后续再加以配色风格、图标及插图的个性化设计。当然我知道这并不是可取的方法，一方面限制了视觉呈现，另一方面在原型设计阶段投入太多时间考虑设计细节会大大降低需求对接的效率，因此我制作了一套规范化的元件库</span><span style="font-family:'微软雅黑';font-weight:400;color:#999999;">KT_UX_Mobile1.3.2_ForAxure8.1</span><span style="font-family:'微软雅黑';font-weight:400;">，在提高工作效率的同时也使得产出的原型更加美观：</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u444" class="ax_default box_2">
+          <div id="u444_div" class=""></div>
+          <div id="u444_text" class="text ">
+            <p><span>（辰管家-功能结构2.0）</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (图片) -->
+        <div id="u445" class="ax_default _图片">
+          <img id="u445_img" class="img " src="images/产品设计0到1，我是这样做的/u445.png"/>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u446" class="ax_default box_2">
+          <div id="u446_div" class=""></div>
+          <div id="u446_text" class="text ">
+            <p><span>包含了：通用页面模板、iPhone模型横竖屏@1x、屏幕@1x、移动端常用操作手势30x、栅格、状态栏、常用导航、标签栏、公众号菜单栏、常用键盘、常见图片布局、常用页面、表单控件、各类弹窗、列表、图表、常用图标等，所有元件均为矢量图形并按官方@1x尺寸规范制作，使用时对于常规界面直接拖拽组合即可，大幅度提升工作效率，目前还在继续完善中。</span></p><p><span><br></span></p><p><span>对于原型设计，我的基本流程是这样的（绘制原型前的顺序不是固定的）：</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (组 合) -->
+        <div id="u447" class="ax_default" data-left="210" data-top="4374" data-width="860" data-height="70">
+
+          <!-- Unnamed (矩形) -->
+          <div id="u448" class="ax_default box_1">
+            <div id="u448_div" class=""></div>
+            <div id="u448_text" class="text ">
+              <p><span>业务流程</span></p><p><span>梳理和走查</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u449" class="ax_default box_1">
+            <div id="u449_div" class=""></div>
+            <div id="u449_text" class="text ">
+              <p><span>页面交互</span></p><p><span>草图</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u450" class="ax_default box_1">
+            <div id="u450_div" class=""></div>
+            <div id="u450_text" class="text ">
+              <p><span>Axure等工具</span></p><p><span>绘制原型</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u451" class="ax_default box_1">
+            <div id="u451_div" class=""></div>
+            <div id="u451_text" class="text ">
+              <p><span>功能点</span></p><p><span>竞品分析</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u452" class="ax_default box_1">
+            <div id="u452_div" class=""></div>
+            <div id="u452_text" class="text ">
+              <p><span>细节完善</span></p><p><span>数据埋点</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u453" class="ax_default box_1">
+            <div id="u453_div" class=""></div>
+            <div id="u453_text" class="text ">
+              <p><span>原型评审</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (连接线) -->
+          <div id="u454" class="ax_default _连接线">
+            <img id="u454_seg0" class="img " src="images/产品设计0到1，我是这样做的/u454_seg0.png" alt="u454_seg0"/>
+            <img id="u454_seg1" class="img " src="images/产品设计0到1，我是这样做的/u426_seg1.png" alt="u454_seg1"/>
+            <div id="u454_text" class="text " style="display:none; visibility: hidden">
+              <p></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (连接线) -->
+          <div id="u455" class="ax_default _连接线">
+            <img id="u455_seg0" class="img " src="images/产品设计0到1，我是这样做的/u454_seg0.png" alt="u455_seg0"/>
+            <img id="u455_seg1" class="img " src="images/产品设计0到1，我是这样做的/u426_seg1.png" alt="u455_seg1"/>
+            <div id="u455_text" class="text " style="display:none; visibility: hidden">
+              <p></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (连接线) -->
+          <div id="u456" class="ax_default _连接线">
+            <img id="u456_seg0" class="img " src="images/产品设计0到1，我是这样做的/u454_seg0.png" alt="u456_seg0"/>
+            <img id="u456_seg1" class="img " src="images/产品设计0到1，我是这样做的/u426_seg1.png" alt="u456_seg1"/>
+            <div id="u456_text" class="text " style="display:none; visibility: hidden">
+              <p></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (连接线) -->
+          <div id="u457" class="ax_default _连接线">
+            <img id="u457_seg0" class="img " src="images/产品设计0到1，我是这样做的/u454_seg0.png" alt="u457_seg0"/>
+            <img id="u457_seg1" class="img " src="images/产品设计0到1，我是这样做的/u426_seg1.png" alt="u457_seg1"/>
+            <div id="u457_text" class="text " style="display:none; visibility: hidden">
+              <p></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (连接线) -->
+          <div id="u458" class="ax_default _连接线">
+            <img id="u458_seg0" class="img " src="images/产品设计0到1，我是这样做的/u454_seg0.png" alt="u458_seg0"/>
+            <img id="u458_seg1" class="img " src="images/产品设计0到1，我是这样做的/u426_seg1.png" alt="u458_seg1"/>
+            <div id="u458_text" class="text " style="display:none; visibility: hidden">
+              <p></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Unnamed (组 合) -->
+        <div id="u459" class="ax_default" data-left="190" data-top="4594" data-width="900" data-height="1000">
+
+          <!-- Unnamed (矩形) -->
+          <div id="u460" class="ax_default box_2">
+            <div id="u460_div" class=""></div>
+            <div id="u460_text" class="text ">
+              <p><span>（辰管家-看房预约及入住签约流程）</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (图片) -->
+          <div id="u461" class="ax_default _图片">
+            <img id="u461_img" class="img " src="images/产品设计0到1，我是这样做的/u461.png"/>
+          </div>
+
+          <!-- Unnamed (图片) -->
+          <div id="u462" class="ax_default _图片">
+            <img id="u462_img" class="img " src="images/产品设计0到1，我是这样做的/u462.png"/>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u463" class="ax_default box_2">
+            <div id="u463_div" class=""></div>
+            <div id="u463_text" class="text ">
+              <p><span>（辰管家-房东委托及房源上架流程）</span></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u464" class="ax_default box_2">
+          <div id="u464_div" class=""></div>
+          <div id="u464_text" class="text ">
+            <p><span>核心业务流程走通后，接下来就是根据功能层级和逻辑线路来详细地绘制界面原型了，对界面中优化方案和一些功能呈现的不确定性可以做数据埋点，在版本迭代中根据实际数据来对功能或者界面作调整完善，设计过程中还需要进行阶段性评审以探讨功能、业务逻辑及开发难易优化方案（辰管家项目进行了2次评审，参与人员有：客户方、硬件开发团队（电子锁通讯）、产品研发团队负责人以及一些工作人员）。</span></p><p><span><br></span></p><p><span>交互设计有交互规范，界面设计也是一样，我对此整理如下：</span></p><p><span><br></span></p><p><span>1、设计风格符合产品的行业或品牌特性；</span></p><p><span>2、颜色规范，颜色有主辅之分；</span></p><p><span>3、字体统一，字号、色值、间距的组合方式统一；</span></p><p><span>4、图标规范，同级图标风格及视觉对齐；</span></p><p><span>5、栅格一致，同级元素排版时边距、布局栅格一致；</span></p><p><span>6、控件统一，类似控件操作方式、样式一致；</span></p><p><span>7、反馈能力，拥有较为完善的弹窗、结果页、缺省页及错误提示。</span></p><p><span><br></span></p><p><span>鉴于内容篇幅，关于UI设计的文章后期会再展开说明。</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (组 合) -->
+        <div id="u465" class="ax_default" data-left="190" data-top="6134" data-width="900" data-height="100">
+
+          <!-- Unnamed (图片) -->
+          <div id="u466" class="ax_default _图片">
+            <img id="u466_img" class="img " src="images/产品设计0到1，我是这样做的/u466.png"/>
+          </div>
+
+          <!-- Unnamed (图片) -->
+          <div id="u467" class="ax_default _图片">
+            <img id="u467_img" class="img " src="images/产品设计0到1，我是这样做的/u467.png"/>
+          </div>
+
+          <!-- Unnamed (图片) -->
+          <div id="u468" class="ax_default _图片">
+            <img id="u468_img" class="img " src="images/产品设计0到1，我是这样做的/u468.png"/>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (页尾) -->
+
+      <!-- 页尾 (矩形) -->
+      <div id="u470" class="ax_default box_2" data-label="页尾">
+        <div id="u470_div" class=""></div>
+        <div id="u470_text" class="text ">
+          <p><span>© 2018 </span><a id="u471" class="link"><span>KITILO</span></a></p>
+        </div>
+      </div>
+
+      <!-- 导航标题栏背景 (动态面板) -->
+      <div id="u472" class="ax_default ax_default_hidden" data-label="导航标题栏背景" style="display:none; visibility: hidden">
+        <div id="u472_state0" class="panel_state" data-label="State1" style="">
+          <div id="u472_state0_content" class="panel_state_content">
+
+            <!-- 导航背景 (矩形) -->
+            <div id="u473" class="ax_default box_2" data-label="导航背景">
+              <div id="u473_div" class=""></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 标题显示判断锚点 (动态面板) -->
+      <div id="u474" class="ax_default" data-label="标题显示判断锚点">
+        <div id="u474_state0" class="panel_state" data-label="State1" style="">
+          <div id="u474_state0_content" class="panel_state_content">
+          </div>
+        </div>
+      </div>
+
+      <!-- 内容高度 (动态面板) -->
+      <div id="u475" class="ax_default" data-label="内容高度">
+        <div id="u475_state0" class="panel_state" data-label="State1" style="">
+          <div id="u475_state0_content" class="panel_state_content">
+          </div>
+        </div>
+      </div>
+
+      <!-- 返回顶部 (动态面板) -->
+      <div id="u476" class="ax_default ax_default_hidden" data-label="返回顶部" style="display:none; visibility: hidden">
+        <div id="u476_state0" class="panel_state" data-label="State1" style="">
+          <div id="u476_state0_content" class="panel_state_content">
+
+            <!-- Unnamed (矩形) -->
+            <div id="u477" class="ax_default box_3">
+              <div id="u477_div" class=""></div>
+            </div>
+
+            <!-- Unnamed (形状) -->
+            <div id="u478" class="ax_default icon1">
+              <img id="u478_img" class="img " src="images/产品设计0到1，我是这样做的/u478.png"/>
+            </div>
+          </div>
+        </div>
+        <div id="u476_state1" class="panel_state" data-label="State2" style="visibility: hidden;">
+          <div id="u476_state1_content" class="panel_state_content">
+
+            <!-- Unnamed (矩形) -->
+            <div id="u479" class="ax_default box_3">
+              <div id="u479_div" class=""></div>
+            </div>
+
+            <!-- Unnamed (形状) -->
+            <div id="u480" class="ax_default icon1">
+              <img id="u480_img" class="img " src="images/产品设计0到1，我是这样做的/u478.png"/>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 标题 (动态面板) -->
+      <div id="u481" class="ax_default ax_default_hidden" data-label="标题" style="display:none; visibility: hidden">
+        <div id="u481_state0" class="panel_state" data-label="State1" style="">
+          <div id="u481_state0_content" class="panel_state_content">
+
+            <!-- 标题 (矩形) -->
+            <div id="u482" class="ax_default box_2" data-label="标题">
+              <div id="u482_div" class=""></div>
+              <div id="u482_text" class="text ">
+                <p><span>产品设计0到1，我是这样做的</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (返回主页) -->
+
+            <!-- 返回主页 (动态面板) -->
+            <div id="u484" class="ax_default" data-label="返回主页">
+              <div id="u484_state0" class="panel_state" data-label="State1" style="">
+                <div id="u484_state0_content" class="panel_state_content">
+
+                  <!-- Unnamed (矩形) -->
+                  <div id="u485" class="ax_default box_1">
+                    <div id="u485_div" class=""></div>
+                    <div id="u485_text" class="text ">
+                      <p><span>返回主页</span></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div id="u484_state1" class="panel_state" data-label="State2" style="visibility: hidden;">
+                <div id="u484_state1_content" class="panel_state_content">
+
+                  <!-- Unnamed (矩形) -->
+                  <div id="u486" class="ax_default box_1">
+                    <div id="u486_div" class=""></div>
+                    <div id="u486_text" class="text ">
+                      <p><span>返回主页</span></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
